@@ -6,6 +6,7 @@ import MovieList from './Movies/MovieList';
 import Movie from './Movies/Movie';
 
 
+
 export default class App extends Component {
   constructor() {
     super();
