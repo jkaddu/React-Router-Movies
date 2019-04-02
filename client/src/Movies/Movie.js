@@ -62,7 +62,7 @@ export default class Movie extends Component {
             </div>
           ))}
         </div>
-        <div className="save-button">Save</div>
+        <div onClick={this.saveMovie}className="save-button">Save</div>
       </div>
     );
   }
