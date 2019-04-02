@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MovieCard = () => {
+const MovieCard = (props) => {
   const { title, director, metascore, stars } = this.state.movie;
     return (
       <div className="save-wrapper">
@@ -20,7 +20,7 @@ const MovieCard = () => {
             </div>
           ))}
         </div>
-        <div onClick={this.saveMovie} className="save-button">Save</div>
+        <div onClick={props.saveMovie} className="save-button">Save</div>
       </div>
     );
 };
